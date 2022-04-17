@@ -1,0 +1,8 @@
+div{
+	background-image:url('bg.jpg');
+}
+@media (min-resolution:1.5dppx){
+	div{
+		background-image:url('bg@1_5x.jpg');
+	}
+}

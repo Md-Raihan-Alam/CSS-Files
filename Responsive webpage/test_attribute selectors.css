@@ -1,0 +1,28 @@
+/*You can chose any attribute*/
+img:not([alt]),
+img[alt]{
+	border:3px solid red;
+}
+img[alt="photo is not supported33"]{
+	border:1px solid green;
+}
+[data-t]{
+	color:red;
+}
+[data-type^="todo"]{/*^=all the element who have todo at the begining*/
+	color:gold;
+}
+[data-type*="team"]{/* '*' symbol, which in this context means "contains."*/
+	color:blue;
+}
+[data-ingredients$="jam"]{/*$ symbol the last attrbute*/
+	font-size:30px;
+}
+[data-activity-name="swimming"][data-location="indoor"]{
+background-color:gray;
+}
+/*
+you can chose class and id like this:
+[id^=""]
+[class*=""]
+*/

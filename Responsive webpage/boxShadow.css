@@ -1,0 +1,28 @@
+[class^="box"]{
+	width:60vw;
+	height:60vh;
+	margin:20px;
+	border:1px solid black;
+}
+.box{
+	box-shadow:0px 4px 50px hsla(143,100%,70%,1),
+	inset 0px 0px 40px hsla(346,100%,70%,1);
+}
+.box2{
+	box-shadow:inset 0px 0px 40px hsla(346,100%,70%,1);
+}
+.box3{
+	box-shadow:0 10px 10px;
+	/*for spread:
+	box-shadow:0 10px 10px -10px;
+*/
+}
+@media (min-width:800px){
+	[class^="box"]{
+	width:60vw;
+	height:60vh;
+	margin:20px;
+	border:1px solid black;
+	box-shadow:none;
+}
+}

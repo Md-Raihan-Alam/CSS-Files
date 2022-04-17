@@ -1,0 +1,3 @@
+.one + .item{/* + means next sibiling */
+	border:1px solid #f90;
+}

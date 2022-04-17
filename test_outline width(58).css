@@ -1,0 +1,12 @@
+#a{
+outline-width:thick;
+outline-style:solid;
+}
+#b{
+outline-width:thin;
+outline-style:solid;
+}
+#c{
+outline-width:10px;
+outline-style:solid;
+}

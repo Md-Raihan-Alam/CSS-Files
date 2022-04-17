@@ -1,0 +1,19 @@
+.box {
+display: inline-flex;
+}
+@supports (display: grid) {
+.box {
+background-color:red;
+}
+}
+@supports ((display:flex) and (pointer:cursor)){/*this statement is fake*/
+	.box{
+		font-size:30px;
+	}
+}
+@supports ((display: flex) and (cursor:pointer)) or
+(transform: translate3d(0, 0, 0)) {
+.box{
+font-size:40px;
+}
+}

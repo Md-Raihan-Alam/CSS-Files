@@ -1,0 +1,14 @@
+*{margin:0;padding:0;font-family:Poppins;}
+.card-area{display:flex;flex-direction:row;max-width:450px;margin:10% auto;box-shadow:0px 2px 20px blue;background:#fff;line-height:1.5;
+border-radius:2px;overflow:hidden;z-index:0;}/*important line*/
+.card-area .sin-img{background-image:url(mypic.jpg);top:0;right:0;bottom:0;left:0;background-size:cover;
+background-position:center;transition:0.9s;position:relative;z-index:0;height:100%;}/*important line*/
+.card-area:hover .sin-img{ transform:scale(1.1); }
+.card-area  .img-text{padding:1rem;background:#fff;position:relative;z-index:1;}
+.card-area .img-text h1{line-height:2;font-size:1.6rem;}
+.card-area .img-text h2{font-size:20px;font-weight:700;text-transform:uppercase;color:tomato;margin-top:10px;}
+.card-area .img-area{flex-basis:50%;height:auto;}/*important line*/
+.card-area .img-text{flex-basis:60%;}/*important line*/
+.card-area .img-text::before{transform:skewX(4deg);content:'';width:30px;background:#fff;position:absolute;left:-10px;top:0;bottom:0;
+z-index:-1;}/*background*/
+.img-text p{margin:0 5px;}

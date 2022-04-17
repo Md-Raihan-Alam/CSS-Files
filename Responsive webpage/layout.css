@@ -1,0 +1,8 @@
+*{margin:0;padding:0;}
+.wrap{max-width:1400px;}
+.wrap-middle{width:100%;font-size:0;}
+.header{height:200px;width:100%;background-color:#038c5a;}
+.left{height:625px;width:16.86%;background-color:#03a66a;display:inline-block;}
+.middle{height:625px;width:75.10%;background-color:#bbbf90;display:inline-block;}
+.right{height:625px;width:8.03%;background-color:#03a66a;display:inline-block;}
+.footer{height:100px;width:100%;background-color:#025059;}

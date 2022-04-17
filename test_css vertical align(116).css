@@ -1,0 +1,19 @@
+*{margin:0;padding:0;}
+/*method=1*/
+.table{display:table;width:300px;height:300px;margin:0px auto;border:1px solid blue;text-align:center;}
+.table p{display:table-cell;vertical-align:middle;}
+/*method=2*/
+.table2{width:300px;height:300px;margin:0px auto;border:1px solid blue;text-align:center;position:relative;}
+.table2 p{position:absolute;top:50%;width:100%;transform:translateY(-50%);}
+/*method=3*/
+.table3{width:300px;height:300px;margin:0px auto;border:1px solid blue;display:flex;align-items:center;justify-content:center;}
+/*method=4*/
+.table4{width:300px;height:300px;margin:0px auto;border:1px solid blue;display:grid;place-items:center;}
+/*method=5*/
+.table5{width:300px;height:300px;margin:0px auto;border:1px solid blue;display:grid;}
+.table5 p{margin:auto;}
+/*method=6*/
+.table6{width:300px;height:300px;margin:0px auto;border:1px solid blue;}
+.table6 p{position:relative;top:50%;transform:translateY(-50%);text-align:center;}
+/*method=7*/
+.table7{width:300px;height:300px;margin:0px auto;border:1px solid blue;line-height:300px;/*must be same as height*/text-align:center;}

@@ -1,0 +1,18 @@
+#img-fil{
+	filter:drop-shadow(16px 20px 35px green);
+}
+/*'blur(length)' the higher lenght the more will be blur
+	brightness(#/#%) the higher the more brighter it will be,the lower the more darker it wil be
+	contrast(#%/#) is the same as brightness but more powerful
+	grayscale(#%/#) will make the color colorless,the higher the more colorless it wiill be, for # 0-1 is limit
+	invert(#%/#) is going to reverse or invert all color,the higher the greater reverse it will be better to imagine 'remembering something from 
+	past' type scene from the movie
+	opacity(#%/#) wil make the pic strong or weak,at 0% it will vanish,filter opacity is far more accelerate thean normal opacity as it it handle 
+	by cpu
+	saturate(#%/#) will take out the color from the picture,at 0% will be black-white,100% will be natural,more than 100% will make the color strong
+sepia(#%/#) will make the picture older,the hiher the older it will be
+hue-rotate(angle) will pinpoint the color in the picture
+	drop-shadow(x y z color)=x will set the color position according to the x,y will wet the color according to the y,z is for blur, color is setting
+	the color like shadow
+	we can add all the attribute in the filter
+	*/

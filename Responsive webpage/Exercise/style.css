@@ -1,0 +1,9 @@
+.first-header{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	max-width:1000px;
+	margin:0 auto;
+	height:200px;
+	line-height:200px;
+}

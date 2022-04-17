@@ -1,0 +1,3 @@
+.item:nth-child(3) ~ .item{/*~ means subsequent sibling which take all the class till item after 3 no. item class*/
+	border:1px solid black;
+}

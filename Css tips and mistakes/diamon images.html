@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.picture{
+margin:50px 0px 0px 50px;
+width:200px;
+transform:rotate(45deg);
+overflow:hidden;
+height:200px;
+}
+.picture #image{
+max-width:100%;
+transform:rotate(-45deg) scale(1.42);
+}
+#image2{
+width:200px;
+height:200px;
+clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);
+}
+#image3{
+width:200px;
+height:200px;
+clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);
+transition:1s clip-path;
+}
+#image3:hover{
+clip-path:polygon(0 0,100% 0,100% 100%, 0 100%);
+}
+</style>
+</head>
+<body>
+<div class="picture">
+<img src="1.jpg" id="image">
+</div>
+<img src="1.jpg" id="image2">
+<img src="1.jpg" id="image3">
+</body>
+</html>

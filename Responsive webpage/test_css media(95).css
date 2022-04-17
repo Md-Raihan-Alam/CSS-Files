@@ -1,0 +1,35 @@
+body{
+color:red;	
+}
+.title{
+	font-size:8rem;
+}
+.subtitle{
+	font-size:3rem;
+}
+@media all and (min-height:500px){
+body{
+	color:blue;
+}
+}
+/*
+@media 'device-name' and (value){
+	statement---
+}
+device-name:print,screen,mobile...
+if value false it won't excute
+else it will excute
+@media (value){
+	statement--
+}
+default alll....
+@media 'device-name'{
+	statement..
+}
+this is available as well..
+media command must be at bottom,cause css excute from top to bottom and if bottom is normal one like body then media won't excute.last method is:
+@media (value) and/not/or (value){
+	statement
+}
+we nan putton comman in case of or...
+*/

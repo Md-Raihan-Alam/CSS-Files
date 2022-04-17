@@ -1,0 +1,12 @@
+.un:first-line{
+text-decoration:underline;
+}
+.ln:first-letter{
+	font-size:50px;
+}
+.op:before{
+	content:url(capture.jpg);
+}
+.po:after{
+	content:url(capture.jpg);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+.imageAround{
+    background-image:url('1.jpg');
+    background-size:cover;
+    width:500px;
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+main{
+  position:relative;
+  font-style:italic;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:20px;
+  padding:20px;
+  overflow:hidden;
+}
+main::before{
+    content:'';
+    position:absolute;
+    top:0;right:0;bottom:0;left:0;
+    background:rgba(221, 215, 215, 0.5);
+    filter:blur(20px);
+    margin:-30px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="imageAround">
+    <main>
+        <blockquote>
+            In traditional print design, this issue is often addressed by blurring the
+part of the photo that is underneath our text container. Blurred backgrounds are not as busy, and thus, text on them is easier to read. Because
+blurring is computationally expensive, in the past its toll on resources was
+prohibitive for using this technique in websites and UI design. However, with
+        <footer>-
+            <cite>
+                Oscar Wilde,
+                The Picture of Doria Gray
+            </cite>
+        </footer>
+    </blockquote>
+    </main>
+</div>
+</body>
+</html>

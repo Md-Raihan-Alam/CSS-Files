@@ -1,0 +1,7 @@
+/*it will cover as the pic's width and length if became
+short then it will repeat
+will work with other tag but won't complete 
+all width and length*/
+body{
+background-image:url(image2.jpg);
+}

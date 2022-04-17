@@ -1,0 +1,54 @@
+.container{
+	font-size:20px;
+	display:grid;
+	/*
+	It is actually shorthand
+for both row-gap and column-gap. Just like when you specify a margin with two
+values, the first value applies to the top and bottom (row), and the second to the left
+and right (columns). If you specify a single value, as we have, it applies to both
+	*/
+	gap:20px;/*same as grid-gap*/
+	background-color:#ddd;
+	/*
+	The format of the syntax is that, inside the parentheses, the first value is the number
+of times you want something repeated, and the second value is the width of each
+item.
+	*/
+	grid-template-columns:repeat(4,1fr);/*The fr unit represents "flexible length" and stands for "flex fraction." */
+	grid-auto-rows:100px;
+	grid-auto-flow:row dense;/*dense fill up the gap*/
+}
+[class^="grid-item"]{
+	outline:1px dashed black;
+	display:grid;
+	align-items:center;
+	justify-content:center;
+	background-color:goldenrod;
+}
+.grid-item3{
+	/*
+	The first number is the start point, which is separated from the endpoint with a
+forward slash. Positive numbers count from the start side—the left-hand side in our
+column example, while negative numbers start from the end side—the right, in this
+instance. So, -1 basically just means the last grid line. So, this nice terse syntax just
+reads: "Start at line 2 and go to the end."
+	*/
+	grid-column:2/-1;
+}
+.grid-item6{
+	grid-column:3/5;
+	grid-row:3/6;
+}
+.grid-item17{
+	/*
+	Rather than stipulating a definite start and end point when placing grid items, you
+can give one or the other and then tell the item to span a number of rows/columns
+from that point either forward or backward. In our example, we told the item to start
+at grid line 6 and span 2 rows.
+	*/
+	grid-row:6 / span 2;
+	grid-column:2/3;
+}
+.grid-item4{
+	grid-row:4 / 7;
+}

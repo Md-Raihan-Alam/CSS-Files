@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+[class^='clip'] {
+  height: 400px;
+  width: 400px;
+  background-image: url('f5.jpg');
+  display: inline-block;
+}
+.clip-circle{
+	/*
+	clip-path:circle(20%);it only tell the combine of width and height
+	*/
+	/*same circle clip-mask but positioned 60% horizontally and 40%
+vertically
+'at' needed to communicate that the lengths after
+relate to positioning and not size.*/
+	clip-path:circle(35% at 60% 40%);
+}
+.clip-ellipse{
+	/*clip-path: ellipse(), the first argument is the x-axis radius (horizontal)
+and the second argument is the y-axis radius (vertical). Just like circle(), you
+specify positioning lengths after the at keyword*/
+	clip-path:ellipse(200px 100px at 60% 50%);
+}
+.clip-inset{
+	/*
+	ou pass four lengths, and
+these are how much you want to inset the mask from the edges. Just like when you
+set margin, the values go clockwise: top, right, bottom, and left. Just like margin,
+you can also pass just two length values; the first will be top and bottom and the
+second will be left and right (the three-value syntax works the same too).
+There is also an optional round keyword that can be used, followed by another
+length; that sets how much you would like each corner to be rounded by.
+*/
+	clip-path:inset(40px 30px 50px 20px round 20px 40px 40px 90px);
+}
+.clip-polygon{
+	/*Think of this as a way of describing where to start cutting (the first argument), where
+to go next (any subsequent arguments), and where the last point should be. The
+polygon then connects the final point to the first to complete the path.
+Each argument is made up of an x coordinate described from the top left of the
+containing box (for example, 50% along), and then the y coordinate (for example,
+60px from the top) in relation to the top of the containing box this one below is for three points*/
+	/*clip-path:polygon(0% 0%,0% 100%,100% 90%);first-point top, second-point top, third-point top*/
+clip-path:polygon(0% 0%,0% 100%,100% 90%,100% 10%);
+	}
+.clip-url{
+	clip-path:url(#starSymbol);
+}

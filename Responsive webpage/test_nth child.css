@@ -1,0 +1,26 @@
+span{
+	height:2rem;
+	width:2rem;
+	display:inline-block;
+	background-color:blue;
+}
+
+span:nth-child(3n+3){/*after how many including the selectd one+ from which one*/
+	background-color:#f90;
+	border-radius:50%;
+}
+span:nth-child(-3n+3){/*reverse*/
+	background-color:#e4e4e4;
+	border-radius:30%;
+}
+
+.div-class{
+	height:2rem;
+	width:2rem;
+	display:inline-block;
+	background-color:blue;
+}
+.div-class:nth-of-type(3n+3){/*after how many+ after how many*/
+	background-color:red;
+	border-radius:50%;
+}

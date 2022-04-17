@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<!--
+The viewport <meta> tag is added within the <head> tags
+of the HTML. It can be set to a specific width (which we could specify in pixels, for
+example) or as a scale, for example, 2.0 (twice the actual size). Here's an example of
+the viewport meta tag set to show the browser at twice (200 percent) the actual size:
+<meta name="viewport" content="initial-scale=2.0,width=device-width"
+/>
+Let's break the preceding <meta> tag down and understand what's going on. The
+name="viewport" attribute tells the browser this tag is dealing with the viewport.
+The content="initial-scale=2.0 section is then saying, "scale the content to twice
+the size" (where 0.5 would be half the size, 3.0 would be three times the size, and so
+on), while the width=device-width part tells the browser that the width of the page
+should be equal to device-width. The <meta> tag can also be used to control the
+amount a user can zoom in and out of the page. This example allows users to go as
+large as three times the device's width and as small as half the device's width:
+<meta name="viewport" content="width=device-width, maximum-scale=3,
+minimum-scale=0.5" />
+You could also disable users from zooming at all:
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no"
+/>
+user-scalable=no is the relevant part here.
+-->
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="footer 3.css" rel="stylesheet" media="all">
+</head>
+<body>
+<footer>
+<div class="footer-content">
+<div class="footer-section about"><h1 class="heading"><span>Programmer</span> Raihan</h1>
+<p>You want to have a dynamic website as well.You want to have a dynamic website as well.You want to have a dynamic website as well.Then hire programmer raihan NOW!!!</p>
+<div class="contact">
+<span><i class="fa fa-phone"></i>&nbsp;01979387838</span>
+<span><i class="fa fa-envelope"></i>&nbsp;raihan32@gmail.com</span>
+</div>
+<div class="socials">
+<a href=""><i class="fab fa-facebook"></i></a>
+<a href=""><i class="fab fa-instagram"></i></a>
+<a href=""><i class="fab fa-twitter"></i></a>
+<a href=""><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+<div class="footer-section links">
+<h2>Quick Links</h2>
+<br>
+<ul>
+<a href="#"><li>Events</li></a>
+<a href="#"><li>Works</li></a>
+<a href="#"><li>Profile</li></a>
+<a href="#"><li>Information</li></a>
+<a href="#"><li>Certificates</li></a>
+<a href="#"><li>Private Information</li></a>
+</div>
+<div class="footer-section contact-forn"></div>
+</div>
+<div class="footer-bottom">
+&copy; programmer Raihan|Programmer Md. Raihan Alam
+</div>
+</footer>
+</body>
+</html>

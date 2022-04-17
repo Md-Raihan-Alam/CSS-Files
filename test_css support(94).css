@@ -1,0 +1,15 @@
+/*@support(condition) and/or/not (condition){
+	statement--
+	--
+}
+if condition is supported than statement will be excuted*/
+@supports(display:grid) and (transform:rotate(30deg)){
+	p{
+		color:red;
+	}
+}
+@supports(display:rainbow){
+	p{
+		color:blue;
+	}
+}

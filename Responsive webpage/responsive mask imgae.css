@@ -1,0 +1,7 @@
+.mask-image-example {
+display: block;
+height: 1024px;
+width: 1024px;
+margin: 0 auto;
+mask:url("mars-text-mask.png");
+}

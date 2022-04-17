@@ -1,0 +1,6 @@
+@charset "iso-8859-1";/*it must be written at the begining without even a space*/
+p{
+border:2px solid green;
+margin:50px;
+color:red;
+}

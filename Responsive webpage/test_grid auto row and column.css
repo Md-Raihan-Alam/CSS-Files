@@ -1,0 +1,39 @@
+.my-first-grid{
+	display:inline-grid;
+	grid-gap:10px;
+	grid-template-rows:200px 200px;
+	grid-template-columns:200px 200px;
+	/*
+	 use grid-auto-rows and grid-auto-columns to make any extra grid items the
+same size as the existing ones
+	 it is 100px tall, then 150px, and then back to 100px
+	*/
+	grid-auto-rows:100px 150px;
+	grid-auto-columns:100px 150px;
+	background-color:#e4e4e4;
+}
+.grid-item-1{
+	grid-row:1;
+	grid-column:1;
+}
+.grid-item-2{
+	grid-row:1;
+	grid-column:2;
+}
+.grid-item-3{
+	grid-row:2;
+	grid-column:1;
+}
+.grid-item-4{
+	grid-row:2;
+	gird-column:2;
+}
+[class^="grid-item"]{
+	
+display:grid;
+	outline:3px dashed black;
+	font-size:30px;
+	color:#333;
+		align-items:center;
+	justify-content:center;
+}

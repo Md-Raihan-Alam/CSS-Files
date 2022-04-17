@@ -1,0 +1,6 @@
+body{
+background-image:url(image1.jpg);
+background-repeat:no-repeat;
+}
+/*repeat-x will set image to upper left to right
+repeat-y will set image to right side up to down*/

@@ -1,0 +1,16 @@
+.a{
+	table-layout:auto;
+	width:180px;
+}
+.b{
+	table-layout:fixed;
+	width:180px;
+}
+.c{
+	table-layout:auto;
+	width:100%;
+}
+.d{
+	table-layout:fixed;
+	width:100%;
+}

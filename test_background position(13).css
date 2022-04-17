@@ -1,0 +1,8 @@
+body{
+background-image:url(image1.jpg);
+background-repeat:no-repeat;
+background-position:10mm 10mm;
+}
+/*first number=from left to right way
+second number=from up to down
+in>cm>em & pc>%>ex>mm>pt>px*/

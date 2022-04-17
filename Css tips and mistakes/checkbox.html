@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #awesome{
+                position:absolute;
+                clip:rect(0,0,0,0);
+            }
+            #awesome + label::before{
+                content:'\a0';
+                display:inline-block;
+                vertical-align: .2em;
+                width:.8em;
+                height:.8em;
+                margin-right:.2m;
+                border-radius:.2em;
+                background:silver;
+                text-indent:.15em;
+                line-height:.65;
+            }
+            #awesome:checked + label::before{
+                content:'\2713';
+                background:yellowgreen;
+            }
+            #awesome2:focus{
+                box-shadow:0 0 .1em .1em #58a;
+            }
+            #awesome3:disabled{
+                background:gray;
+                box-shadow:none;
+                color:#555;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="checkbox" id="awesome">
+        <label for="awesome">Awesome!</label><br>
+        <input type="checkbox" id="awesome2">Box shadow
+        <input type="checkbox" disabled checked id="awesome3">Disabled
+    </body>
+</html>

@@ -1,0 +1,7 @@
+@media screen and (min-width:900px){
+	.call-bouts-container{display:flex;flex-wrap:wrap;justify-content:space-between;}/*align-items:flex-end;flex-start;stretch*/
+}
+.call-out{box-sizing:border-box;padding:10px;flex-basis:30%;margin:20px 0px;}
+.call-out:nth-child(1){background-color:red;}
+.call-out:nth-child(2){background-color:blue;}
+.call-out:nth-child(3){background-color:yellow;}

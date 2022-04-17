@@ -1,0 +1,12 @@
+#img-fil{
+	filter:sepia(100%) hue-rotate(800deg) brightness(4.6);
+	transition:all 3s ease;
+}
+#img-fil:hover {
+	filter:sepia(0%) hue-rotate(0deg) brightness(1);
+}
+}
+/*sepia(n%) make lose color
+hue-rotate(ndeg) make the colorkeep getting strong or weak
+brightness(n/n.n) control the brightnesss
+*/

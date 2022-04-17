@@ -1,0 +1,5 @@
+*{margin:0;padding:0;}
+.container{display:flex;flex-wrap:wrap;justify-content:space-around;margin-top:20px;}
+.contain{display:table;border:5px solid green;width:300px;height:300px;margin:30px;color:black;padding:40px 20px;transition:.2s;}
+.contain .check{display:table-cell;vertical-align:middle;}
+.contain:hover{background:black;border:none;color:white;}

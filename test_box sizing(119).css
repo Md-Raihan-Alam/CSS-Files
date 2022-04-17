@@ -1,0 +1,22 @@
+/*box sizing:border-box keep the border or the content inside instead of outside
+for default the box padding/border/margin is extra added to width/height but we don't want it
+that  is the reason for border-box,99% programmers set it to the universal value 
+IT REMOVE THE LIST OPTIONS
+check box1 and box3 for understanding*/
+.box1{
+	width:200px;
+	background-color:red;
+	border:5px solid gray;
+	box-sizing:content-box;/*default value*/
+}
+.box2{
+	width:200px;
+	background-color:blue;
+	height:50px;
+}
+.box3{
+	box-sizing:border-box;
+	border:5px solid gray;
+	width:200px;
+	background-color:yellow;
+}

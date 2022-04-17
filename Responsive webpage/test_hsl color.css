@@ -1,0 +1,9 @@
+div{
+	width:50vw;
+	height:50vh;
+	background-color:hsl(123,90%,50%,0.5);
+	/*check the page 197 at 
+	responsive web design 3rd edition
+	also check 198
+	*/
+}

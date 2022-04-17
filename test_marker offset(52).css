@@ -1,0 +1,8 @@
+ol{
+list-style:outside upper-alpha;
+marker-offset:30px;
+}
+ul{
+list-style:inside square;
+marker-offset:150px;/*it doesn't work anymore*/
+}

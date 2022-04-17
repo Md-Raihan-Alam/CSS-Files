@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .panoramic{
+            width:150px;
+            height:150px;
+            background:url('http://c3.staticflickr.com/3/2671/3904743709_74bc76d5ac_b.jpg');
+            background-size:auto 100%;/*no need to adjust the photo*/
+            animation:panoramic 10s linear infinite alternate;
+            animation-play-state:paused;/*back up option if not hover or focused*/
+        }
+        .panoramic:hover,.panoramic:focus{
+            animation-play-state:running;/*keep the position running of hover/focus*/
+        }
+        @keyframes panoramic {
+            to{
+                background-position-x:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="panoramic">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+document.querySelector(".blueColor").addEventListener("click",function(){
+	document.querySelector(".cat").classList.add("blue-eyes");
+});
+document.querySelector(".greenColor").addEventListener("click",function(){
+	document.querySelector(".cat").classList.remove("blue-eyes");
+});
+document.querySelector(".sadButton").addEventListener("click",function(){
+	document.querySelector(".cat").classList.add("sad");
+});
+document.querySelector(".happyButton").addEventListener("click",function(){
+	document.querySelector(".cat").classList.remove("sad");
+});
+document.querySelector(".moveAround").addEventListener("click",function(){
+	document.querySelector(".cat").classList.add("move-around");
+});
+document.querySelector(".stayStill").addEventListener("click",function(){
+	document.querySelector(".cat").classList.remove("move-around");
+});

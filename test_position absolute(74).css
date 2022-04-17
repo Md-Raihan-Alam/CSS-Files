@@ -1,0 +1,6 @@
+p{
+position:absolute;
+left:100px;/*negative for right*/
+top:100px;/*negative for down*/
+color:#FF00FF;
+}

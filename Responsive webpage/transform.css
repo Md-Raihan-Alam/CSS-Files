@@ -1,0 +1,37 @@
+div{
+display:flex;
+align-items:center;
+flex-direction:row;
+flex:1 1 30%;
+height:80px;
+	color:white;
+}
+[class^="box"]{
+	border:1px solid green;
+		background-color:red;
+	transition:transform 1s;
+}
+.box1:hover{
+	transform:scale(1.4);
+	border:none;/*transform:scale(0.4);for shrinking*/
+	}
+.box2:hover{
+	transform:translate(-20px,-20px);
+}
+.box3:hover{
+	transform:rotate(30deg);
+}
+.box4:hover{
+	transform:skew(40deg,12deg);
+	transform-origin:180px 90px;
+	/*rigin property
+Notice how, with CSS, the default transform origin—the point at which the browser
+uses as the center for the transform—is in the middle: 50% along the x axis and 50%
+along the y axis of the element. This differs from SVG, which defaults to the top left
+(or 0 0).
+Using the transform-origin property, we can amend the point from which
+transforms originate.*/
+}
+.box5:hover{
+	transform:matrix(1.178, -0.256, 1.122, 1.333, -41.533, -1.989);
+}

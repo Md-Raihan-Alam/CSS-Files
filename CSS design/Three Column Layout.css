@@ -1,0 +1,4 @@
+.column-layout{background:gray;color:white;padding:20px;display:flex;}
+.main-column{flex:3;order:2}
+.sub-column1{flex:1;order:1;}
+.sub-column2{flex:2;order:3;}

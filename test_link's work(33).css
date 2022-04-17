@@ -1,0 +1,12 @@
+#e:link{
+color:#FF0000;
+}
+#b:visited{
+color:#00FF00;
+}
+#c:hover{
+color:#FFFF00;/*when mouse pointer will be placed*/
+}
+#d:active{
+color:#FFFFFF;/*will show when clicking*/
+}

@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+:root{
+	/* :root pseudo-class to store the custom property in the
+document root (although you can store them inside any rule you like) which is html tag*/
+	--bgColor:black;/*declaring var like this*/
+	--forColor:white;
+}
+.text-info{
+	text-align:justify;
+	line-height:1.5rem;
+}
+.addingColor{
+	background-color:var(--bgColor);/*put them into data like this*/
+	color:var(--forColor,#555);/*We can have default value like this*/
+}
+button{
+	padding:5px;
+	text-transform:uppercase;
+	cursor:pointer;
+}

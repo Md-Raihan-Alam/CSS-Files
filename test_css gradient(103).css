@@ -1,0 +1,24 @@
+.grad{
+	margin:100px;
+	width:200px;
+	height:200px;
+	background:linear-gradient(red,blue,yellow,white,green,black,gray);
+}
+.gra2{
+		margin:200px;
+	width:200px;
+	height:200px;
+	background:linear-gradient(to right,red,blue,yellow,white,green,black,gray);/*left=to left,top=to top, default is down*/
+}
+.gra3 h1{
+	background:linear-gradient(green,blue);
+}
+.gra4 h1{
+	font-size:70px;
+	background:-webkit-linear-gradient(yellow,red);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+*/}
+/*
+-webkit-linear-gradient,-o-linear-gradient,-ms-linear-gradient
+*/

@@ -1,0 +1,27 @@
+@font-face{
+	font-family:"InterRagular";/*you can name anything you want*/
+	/*if its in a folder*/
+	src:url('../fonts/Inter-Regular.woff2') format('woff2'),
+	url('../fonts/Inter-Regular.woff') format('woff');
+	/*src:url("Inter-Regular.woff2") format("woff2"), format is for type
+	url("Inter-Regular.woff") format("woff");*/
+	font-weight:normal;
+	font-style:normal;
+	/*some control over how fonts should get displayed.*/
+	font-display:fallback;
+	/*values:auto,display,swap,fallback,optional
+	read page 188-189 from responsive web page design 3rd edition*/
+}
+.hero-Image{
+	font-family:"InterRagular";
+}
+/*for font variation:
+@font-face {
+font-family: 'Inter-V';
+src: url('fonts/inter.var.woff2') format('woff2-variations');
+font-weight: 100 900;
+font-style: oblique 0deg 10deg;
+font-display: fallback;
+}
+you should also check from page 191
+*/

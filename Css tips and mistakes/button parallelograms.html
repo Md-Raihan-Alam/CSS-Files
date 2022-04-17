@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.btn-design{
+background-color:green;
+width:100px;
+height:50px;
+font-size:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+transform:skewX(-45deg);
+}
+.btn{
+color:white;
+text-decoration:none;
+transform:skewX(45deg);
+}
+.btn-design2{
+width:100px;
+height:50px;
+font-size:20px;
+position:relative;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.btn2{
+color:white;
+text-decoration:none;
+}
+.btn2::before{
+content:'';
+position:absolute;
+top:0;right:0;bottom:0;left:0;
+z-index:-2;
+background:green;
+transform:skew(45deg);
+}
+</style>
+</head>
+<body>
+<div class="btn-design">
+<a href="#" class="btn">
+<span>Click me</span>
+</a>
+</div>
+<div class="btn-design2">
+<a href="#" class="btn2">
+Click me
+</a>
+</div>
+</body>
+</html>

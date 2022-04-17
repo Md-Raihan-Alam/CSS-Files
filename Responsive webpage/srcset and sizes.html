@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<img src="ResponsiveWebDesign_BenFrain_Cover_350.jpg" srcset="ResponsiveWebDesign_BenFrain_Cover_350.jpg 100w,ResponsiveWebDesign_BenFrain_Cover_700.jpg 250w" sizes="(min-width:320px) 20vw,(min-width:800px) 40vw" alt="Book">
+<!--  
+ we have a 450px wide image (called sconessmall.jpg) and a 900px wide image (called scones-medium.jpg). It's important to
+note this w-suffixed value isn't a "real" size. It's merely an indication to the browser,
+roughly equivalent to the width in "CSS pixels."
+
+
+This w-suffixed value makes more sense when we factor in the sizes attribute.
+The sizes attribute allows us to communicate the intentions for our images to the
+browser. In our preceding example, the first value is equivalent to "for devices that
+are at least 280px wide, I intend the image to be around 100vw wide.
+
+
+The second part is, effectively, "Hi browser, for devices that are at least 640px
+wide, I only intend the image to be shown at 50vw." That may seem a little
+redundant until you factor in DPI (or DPR for device pixel ratio). For example, on
+a 320px wide device with a 2x resolution (effectively requiring a 640px wide image,
+if shown at full width), the browser might decide the 900px wide image is actually
+a better match as it's the first option it has for an image that would be big enough
+to fulfill the required size.
+-->
+</body>
+</html>

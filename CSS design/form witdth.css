@@ -1,0 +1,4 @@
+.container{width:75%;background:gray;color:black;margin:0 auto;height:180px;padding:20px;}
+.form-work{padding:20px;display:flex;}
+.form-work label{padding-right:10px;}
+.form-work input{flex:1;}

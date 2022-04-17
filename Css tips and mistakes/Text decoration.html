@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .unLine{
+                text-decoration:underline;
+                text-decoration-color: cornflowerblue;
+                text-decoration-style: dotted;
+                text-underline-offset: 5px;
+                text-underline-position:auto;
+                text-decoration-thickness:3px ;
+            }
+            .line{
+                background:linear-gradient(red,red) no-repeat;
+                background-size:100% 1px;
+                background-position:0 1em;
+                text-shadow:.05em 0 red, -.05em 0 red;
+            }
+            .line2{
+                background:linear-gradient(90deg,gray 66%,red 0) no-repeat;
+                background-size:100% 1px;
+                background-position:0 1em;
+                text-shadow:.05em 0 red, -.05em 0 red;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Often the best solutions come from the most unexpected places. In this case,
+            it comes in the form of<span class="unLine"> background-image and related properties</span></p>
+            <p>Often the best solutions come from the most unexpected places. In this case,
+                it comes in the form of<span class="line"> background-image and related properties</span></p>
+                <p>Often the best solutions come from the most unexpected places. In this case,
+                    it comes in the form of<span class="line2"> background-image and related properties</span></p>
+    </body>
+</html>

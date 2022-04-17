@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            [class^="glowingText"]{
+                background:#203;
+                color:#ffc;
+                font-size:40px;
+                padding:20px;
+            }
+            .glowingText1{
+                text-shadow:0 0 .1em,0 0 .3em;/*glow*/
+            }
+            .glowingText2{
+                transition:1s;
+            }
+            .glowingText2:hover{
+                text-shadow:0 0 .1em,0 0 .3em;
+            }
+            .glowingText3{
+                transition:1s;
+            }
+            .glowingText3:hover{
+                filter:blur(.1em);
+            }
+        </style>
+    </head>
+    <body>
+        <p class='glowingText1'>Glow</p>
+        <p class='glowingText2'>Dizzy</p>
+        <p class='glowingText3'>Glow and Dizzy</p>
+    </body>
+</html>

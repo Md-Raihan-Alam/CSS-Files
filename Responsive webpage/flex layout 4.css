@@ -1,0 +1,12 @@
+.flexWrapper{
+	background-color: indigo;
+display: flex;
+height: 200px;
+}
+.flexItem{
+	flex:2 1 auto;/*grow shrink basis*/
+	background-color: #34005b;
+	color:white;
+	font-size:1rem;
+	border:1px solid white;
+}

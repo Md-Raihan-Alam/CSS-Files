@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <p>The methods are</p>
+        <code>
+             <!--absolute poisiton-->
+             main {
+                position: absolute;
+                top: calc(50% - 3em);
+                left: calc(50% - 9em);
+                width: 18em;
+                height: 6em;
+                }
+                or
+                main {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    }
+            <!--The viewport unit solution-->
+            main {
+                width: 18em;
+                padding: 1em 1.5em;
+                margin: 50vh auto 0;
+                transform: translateY(-50%);
+                }
+        </code>
+    </body>
+</html>

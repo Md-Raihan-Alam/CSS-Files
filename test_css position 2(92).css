@@ -1,0 +1,9 @@
+.main{
+position:sticky;
+top:0;
+}
+.contact{
+	margin-top:50px;
+}
+/*sticky position is almost like fixed bu not completely. like it is not absolute,check the html ,,,it will be more explainabale.if we don't specific premire it will act like relative
+when far from like target it is like relative but when close it is like fixed*/

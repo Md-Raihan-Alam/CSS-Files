@@ -1,0 +1,31 @@
+.box{
+	margin:100px;
+}
+.box{
+	width:100px;
+	height:100px;
+	background-color:green;
+	box-shadow:10px 10px 10px 7px blue;/*right down blur-amount color-space color*/
+}
+/*
+-moz-box-shadow:10px 10px 10px 7px blue
+-webkit-box-shadow:10px 10px 10px 7px blue
+-o-box-shadow:10px 10px 10px 7px blue
+-ms-box-shadow:10px 10px 10px 7px blue
+*/
+.box2{
+	margin:200px;
+}
+.box2{
+	width:100px;
+	height:100px;
+	background-color:green;
+	box-shadow:inset 10px 10px 15px 3px blue;/*left up blur-amount color-space color*/
+}
+.box3{
+	margin:150px;
+	height:100px;
+	width:100px;
+	box-shadow:-10px -10px 7px 4px red,
+	10px 10px 7px 4px yellow;
+}

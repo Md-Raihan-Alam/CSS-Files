@@ -1,0 +1,31 @@
+body{
+	background:black;
+}
+h1{
+	font-size:2.1rem;
+	line-height:1.4;
+	color:white;
+	letter-spacing:5px;
+	text-align:center;
+	margin-top:50px;
+}
+.mainDiv{
+	width:70%;
+	height:400px;
+	position:absolute;
+	border:10px solid white;
+	left:14%;
+	top:15%;
+	background-image:url(1.jpg);
+	background-size:100% 100%;
+	box-shadow:5px 5px 10.3px 0.5px gray,
+	 -10px -10px 10.3px 0.5px gray;
+	 animation:slider 9s infinite linear;
+}
+@keyframes slider{
+	0% {background-image:url(1.jpg); }
+	
+	35%{ background-image:url(2.jpg); }
+	
+	75%{ background-image:url(3.jpg); }
+}

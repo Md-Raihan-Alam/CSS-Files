@@ -1,0 +1,34 @@
+[class^="box"]{
+	width:50vw;
+	height:50vh;
+	margin:10px;
+}
+.box1{
+	/*
+	radial-gradient('size of the circle' circle at 'place(top/right/bottom/left)',colors);
+	for angular use like top right/right left/ etc
+	More options are:
+	• at top right starts the radial gradient from the top right.
+• at right 100px top 20px starts the gradient 100px from the right edge
+and 20px from the top edge.
+• at center left starts it halfway down the left side of the element.
+	*/
+	background:radial-gradient(12rem circle at left bottom,yellow,orange,red);
+}
+.box2{
+	background:radial-gradient(closest-side circle at center,#333,blue);
+/*More options are:
+• closest-side: The shape meets the side of the box nearest to the center (in
+the case of circles), or meets both the horizontal and vertical sides that are
+closest to the center (in the case of ellipses).
+• closest-corner: The shape meets exactly the closest corner of the box from
+its center.
+• farthest-side: The opposite of closest-side, in that rather than the shape
+meeting the nearest size, it's sized to meet the one farthest from its center
+(or both the furthest vertical and horizontal side in the case of an ellipse).
+• farthest-corner: The shape expands to the farthest corner of the box from
+the center.
+• cover: Identical to farthest-corner.
+• contain: Identical to closest-side.
+*/
+	}

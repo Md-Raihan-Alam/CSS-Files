@@ -1,0 +1,33 @@
+/*
+flex allows to style the flexibility and sizing of different element in the container from the actual container selector here this box container without ever having to style
+the actual flex box items. we can lay out different elements across the different rows and columns as well as aligning them inside of that layout and then the items
+themselves, one can specify how I want them to flxibly grow inside of the container or how I want them to shrink inside of the element
+usually flex show things as horizontal,work like row or coloumns,default is row
+*/
+.flex-container{
+	display:flex;
+	/*flex-wrap=
+	no-wrap:no device,default 
+	wrap:all device
+	wrap-reverse:reverse all for device*/
+	flex-wrap:wrap;
+	/*flex-direction:column,row,column-reverse,row-reverse*/
+	flex-direction:row-reverse;
+	/*justify-content=
+	flex-start:all left
+	flex-end:all right
+	space-around:move sides
+	space-between:corner and move sides*/
+	justify-content:space-between;
+	background:red;
+	padding:10px;
+	height:200px;
+	align-items:stretch;
+}
+.flex-item{
+	border:5px solid blue;
+	padding:20px;
+	margin:20px;
+	font-size:30px;
+color:white;	
+}

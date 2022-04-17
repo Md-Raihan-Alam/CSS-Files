@@ -1,0 +1,39 @@
+/*
+When the browser creates the grid in both auto-fit and auto-fill, it initially
+lays them out the same. However, when using auto-fit, any extra columns left,
+having laid out the content, are collapsed, leaving that space free to be distributed
+evenly between the items in the row. In our example, because each item also has
+a maximum size of 1fr unit, each takes up an equal portion of that free space. This
+results in columns that span the entire width of the space.
+However, with auto-fill, once the items (in our example, 100px wide) are laid out,
+if there is any extra space, the extra empty columns are not collapsed. They remain in
+situ, filled up, and subsequently the space is not free for the grid items to gobble up.
+The result is that we get space at the end.
+*/
+.my-first-grid{
+	display:grid;
+	background-color:#e4e4e4;
+	grid-gap:20px;
+	/*We are using grid-template-columns, as we have done before, to set up the
+columns of our grid. We are using the repeat() function to set up a repeating
+pattern of columns; however, instead of passing in a number of columns, we tell
+the grid to auto-fit. 
+
+ we are passing minmax() a minimum size
+of 300px and a maximum size of one fr 
+*/
+	grid-template-columns:repeat(auto-fit,minmax(100px,1fr));
+}
+[class^="grid-item"]{
+	display:grid;
+	outline:1px solid gold;
+	align-items:center;
+	justify-content:center;
+}
+.my-first-grid2{
+	display:grid;
+	background-color:#e4e4e4;
+	grid-gap:20px;
+grid-template-columns:repeat(auto-fill,minmax(100px,1fr));
+}
+}

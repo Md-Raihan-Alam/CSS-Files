@@ -1,0 +1,15 @@
+body{
+	margin:0;
+}
+/*depend on color*/
+.container{height:100px;width:100px;background:pink;background-image:url(1.jpg);background-size:cover;background-blend-mode:hue;}
+.container2{height:100px;width:100px;background:pink;background-image:url(1.jpg);background-size:cover;background-blend-mode:multiply;}/*darken*/
+.container3{height:100px;width:100px;background:pink;background-image:url(1.jpg);background-size:cover;background-blend-mode:normal;}
+.container4{height:100px;width:100px;background:pink;background-image:url(1.jpg);background-size:cover;background-blend-mode:screen;}/*lightest*/
+.container5{height:100px;width:100px;background:pink;background-image:url(1.jpg);background-size:cover;background-blend-mode:darken;}
+.container6{height:100px;width:100px;background:pink;background-image:url(1.jpg);background-size:cover;background-blend-mode:color-dodge;}
+.container7{height:100px;width:100px;background:pink;background-image:url(1.jpg);background-size:cover;background-blend-mode:saturation;}
+.container8{height:100px;width:100px;background:pink;background-image:url(1.jpg);background-size:cover;background-blend-mode:exclusion;}
+.container9{height:100px;width:100px;background:pink;background-image:url(1.jpg);background-size:cover;background-blend-mode:overlay;}/*depend on color*/
+.container10{height:100px;width:100px;background-image:url(1.jpg),url(2.jpg);background-size:cover;background-blend-mode:overlay;}
+

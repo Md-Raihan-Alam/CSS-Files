@@ -1,0 +1,28 @@
+#div-1{
+	/*block takes full width and it is default. It create new line above and down for the elements that is connected to the selected elements
+	*/
+	display:block;
+	background:red;
+}
+#span-2{
+	/*inline take only minimum space necessary for the element.It takes as much as necessary for the element but don't take more than enough
+	it is default for span*/
+	display:inline;
+	background:blue;
+	width:100px;
+	height:400px;
+}
+#img{
+	/*inline-block let you decide the width and height.As much as you want you can select it*/
+	display:inline-block;
+	width:100px;
+	height:100px;
+}
+#span-3{
+	/*none delete the element*/
+	display:none;
+	background:yellow;
+}
+#div-4{
+	background:green;
+}

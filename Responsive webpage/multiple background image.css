@@ -1,0 +1,8 @@
+body{
+	height:100vh;
+	width:100vw;
+	background-image:url('rosetta.png'),url('moon.png'),url('stars.jpg');
+	background-size:75vmax,50vw,cover;
+	background-position:top 50px right 80px, 100px 100px, top center;/*position:relative,left top,top center*/
+	background-repeat:no-repeat;
+}

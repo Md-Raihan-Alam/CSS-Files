@@ -1,0 +1,75 @@
+.my-first-grid{
+	display:grid;/* our container as a grid*/
+	grid-gap:10px;/*create the gap*/
+	grid-template-rows:200px 200px;/*set two rows, each 200px high*/
+	grid-template-columns:200px 200px;/*grid to have two 200px wide
+columns.*/
+	background-color:#e4e4e4;
+}
+.grid-item-1{
+	/*
+	 use grid-row with a number to tell Grid
+which row to place the item and grid-column to tell it which column to place it in.
+	*/
+	grid-row:1;
+	grid-column:1;
+}
+.grid-item-2{
+	grid-row:1;
+	grid-column:2;
+}
+.grid-item-3{
+	grid-row:2;
+	grid-column:1;
+}
+.grid-item-4{
+	grid-row:2;
+	gird-column:2;
+}
+[class^="grid-item"]{
+	/*
+	ou adopt Grid, you don't have to forsake any other
+display methods. For example, a Grid will quite happily allow a Flexbox inside
+it. Equally, part of your interface coded with Grid can quite happily live inside
+a Flexbox, standard block, or inline-block.
+	*/
+	display:flex;
+	outline:3px dashed black;
+	font-size:30px;
+	color:#333;
+		align-items:center;
+	justify-content:center;
+}
+.my-first-grid2{
+	display:inline-grid;/*to make align and justify work*/
+	grid-gap:10px;
+	grid-template-rows:200px 200px;
+	grid-template-columns:200px 200px;
+	background-color:#e4e4e4;
+}
+.grid-item2-1{
+	
+	grid-row:1;
+	grid-column:1;
+}
+.grid-item2-2{
+	grid-row:1;
+	grid-column:2;
+}
+.grid-item2-3{
+	grid-row:2;
+	grid-column:1;
+}
+.grid-item2-4{
+	grid-row:2;
+	gird-column:2;
+}
+[class^="grid-item2"]{
+	
+display:grid;
+	outline:3px dashed black;
+	font-size:30px;
+	color:#333;
+		align-items:center;
+	justify-content:center;
+}

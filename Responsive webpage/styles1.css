@@ -1,0 +1,108 @@
+*{
+	box-sizing:border-box;/*note it down*/
+}
+
+body{
+	padding: 1rem 0.5rem;
+	font-size:1.3rem;
+	line-height:1.2;
+	max-width:60rem;
+	margin:0 auto;
+	color:gray;
+}
+
+/*
+All this max-width based rule does is stipulate that all images should grow to be a
+maximum of 100% of their size. Where a containing element (such as the body or
+a div it sits within) is less than the full intrinsic width of the image, the image will
+simply scale up to display as large as it can within that constraint.
+*/
+img{
+	max-width:100%;
+}
+
+.Header{
+	text-align:center;
+	border-bottom:8px double red;
+	margin-bottom:2rem;
+	padding-bottom:1rem;
+}
+
+.LogoWrapper{
+	display:block;
+}
+.Strap{
+	font-size:1rem;
+}
+
+.IntroText{
+	font-size:1.8re,;
+	font-style:italic;
+}
+.MoneyShot{
+	position:relative;
+}
+.MoneyShotImg{
+	border:6px solid blue;
+	border-radius:4px;
+}
+.ImageCaption{
+	font-size:0.75rem;
+	position:absolute;
+	bottom:0.5rem;
+	right:1rem;
+	padding:3px;
+	background-color:black;
+	color:gray;
+}
+
+.MethodWrapper li{
+	padding:0.4rem 0;
+}
+.MethodWrapper li:after{
+	content:"*";
+	display:block;
+	text-align:center;
+	margin:1rem 0 0.5rem 0;
+	color:green;
+}
+
+@media screen and (min-width:800px){
+	body{
+		border-left:4px solid gray;
+		border-right:4px solid gray;
+		padding: 1rem 2rem;
+	}
+	.IntroWrapper{
+		display:table;
+		table-layout:fixed;/*note it down*/
+		width:100%;
+	}
+	
+	.MoneyShot,
+	.IntroText{
+		display:table-cell;/*note it down*/
+		width:50%;
+		vertical-align:middle;
+		text-align:center;
+	}
+	
+	.IntroText{
+		padding:0.5rem;
+		font-size:2.5rem;
+		text-align:left;
+		position:relative;
+	}
+	.Ingredients{
+		font-size:0.9rem;
+		float:right;
+		padding:1rem;
+		margin:0 0 0.5rem 1rem;
+		border-radius:3px;
+		background:#ffffdf;
+		border:2px solid black;
+	}
+	.Ingredients h3{
+		margin:0;
+	}
+}

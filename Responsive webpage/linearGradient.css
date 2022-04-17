@@ -1,0 +1,20 @@
+[class^="box"]{
+	width:60vw;
+	height:60vh;
+	margin:10px;
+}
+.box1{
+	/*use the degree like in rectegular*/
+	background:linear-gradient(45deg,red,blue);
+}
+.box2{
+	background:linear-gradient(
+	#f90 0%,
+	#f90 2%,
+	#555 2%,
+	#eee 50%,
+	#555 98%,
+	#f90 98%,
+	#f90 100%
+	);
+}

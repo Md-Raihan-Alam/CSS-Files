@@ -1,0 +1,70 @@
+svg:hover .my-shape{
+	fill:blue;
+	transform:scale(0.1);
+	transition: transform 1s;
+}
+.blue-eyes .eye-color{
+	fill:blue;
+}
+.sad .mouth{
+	transform:rotate(180deg) scale(0.3);
+	transform-origin:350px 400px;
+}
+.move-around .inner-eye-group{
+	animation:moveEyes 4s infinite;
+}
+@keyframes moveEyes{
+	20%{
+		transform:translate(-18px,-20px);
+	}
+	40%{
+		transform:translate(0,0);
+	}
+	65%{
+		transform:translate(18px,-20px);
+	}
+}
+.move-around .left-whiskers{
+	animation:leftWhiskers 4s infinite;
+	transform-origin:325px 350px;
+}
+@keyframes leftWhiskers{
+	20%{
+		transform:rotate(5deg);
+	}
+	60%{
+		transform:rotate(-5deg);
+}
+}
+.move-around .right-whiskers{
+	animation:rightWhiskers 4s infinite;
+	transform-origin:220px 220px;
+}
+@keyframes rightWhiskers{
+	10%{
+		transform:rotate(-7deg);
+	}
+	90%{
+		transform:rotate(7deg);
+}
+}
+.move-around{
+	animation:move 8s infinite;
+}
+@keyframes move{
+	20%{
+		transform:rotateY(10deg) rotateX(10deg);
+	}
+	40%{
+		transform:rotateY(25deg) rotateX(25deg);
+	}
+	60%{
+		transform:rotateY(-10deg) rotateX(-10deg);
+	}
+	85%{
+		transform:rotateY(-10deg) rotateX(-16deg);
+	}
+}
+.svg-container{
+	perspective:1000px;
+}

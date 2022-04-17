@@ -1,0 +1,11 @@
+body{
+	background-image:url(image3.jpg);
+	background-repeat:no-repeat;
+	background-position: 10mm 10mm;
+	background-attachment:fixed;
+}
+/*forget the writings in html
+attachment two value is:fixed and scroll
+fixed=it will stay in the same place and go down with scrooling
+scroll=same with normal image not much difference
+*/

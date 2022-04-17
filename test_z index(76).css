@@ -1,0 +1,27 @@
+/*position:absolute or relative is necessay for z-index*/
+#a{
+background-color:red;
+width:150px;
+height:150px;
+position:absolute;
+top:50px;
+left:50px;
+z-index:3;
+}
+#b{background-color:blue;
+width:150px;
+height:150px;
+position:absolute;
+top:80px;
+left:80px;
+z-index:2;
+}
+#c{
+background-color:yellow;
+width:150px;
+height:150px;
+position:absolute;
+top:120px;
+left:120px;
+z-index:1;
+}

@@ -1,0 +1,8 @@
+@font-face{
+src: url(fonts/Chilanka-Regular.ttf);
+font-family:chil;
+}
+p{
+	font-size:50px;
+	font-family:chil;
+}

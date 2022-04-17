@@ -1,0 +1,9 @@
+h1{text-align:center;}
+h1::before{content:"'";color:red;}
+h1::after{content:"'";color:green;}
+.conteiner{ text-align:center;}
+.my-btn{display:inline-block; text-decoration:none;border:2px solid blue;padding:10px;color:red;position:relative;z-index:1;}
+.my-btn:hover{color:black;}
+.my-btn::after{content:"";width:0;height:100%;background:blue;position:absolute;left:0;top:0;z-index:-1;}/*same for before*/
+.my-btn:hover::after{width:100%;}
+.my-btn:after,.my-btn:hover{transition:.30s;}

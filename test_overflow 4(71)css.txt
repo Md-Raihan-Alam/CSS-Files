@@ -1,0 +1,16 @@
+#a{
+width:100px;
+height:100px;
+padding:5px;
+margin:5px;
+border:1px solid #FF9900;
+overflow:auto;
+}
+#b{
+width:100px;
+height:100px;
+padding:5px;
+margin:5px;
+border:1px solid #FF9999;
+overflow:auto;
+}

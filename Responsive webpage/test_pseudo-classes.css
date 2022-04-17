@@ -1,0 +1,16 @@
+*{text-decoration:none;}
+.nav-Wrapper{
+	display:flex;
+}
+.nav-Wrapper>a:first-child{
+	color:red;
+}
+.nav-Wrapper>a:last-child{
+	margin-left:auto;
+}
+.nav-Wrapper>a:nth-child(odd){
+	font-size:20px;
+}
+.nav-Wrapper>a:nth-child(even){
+	font-size:40px;
+}

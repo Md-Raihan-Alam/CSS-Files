@@ -1,0 +1,34 @@
+.grind-container{
+/*inline-grid=take space as needed
+	grid-template-columns:auto auto auto;creating column;;as many column needed;
+	to compute width the col as user wants he must do like below for column;for default it will be auto
+to compute width the col as user wants he must do like below for row;for default it will be auto
+grid-template-rows:40px 100px 300px;
+	grid-column-grip:50px;grid-row-gap:20px;grid-gap:20px; like margin-padding
+	justfy-content values:space-around,space-between,center,end;
+		grid-template-columns:50px 100px 50px;
+	justify-content:space-around;column even
+	align-items:end,start,space-between;row even
+	*/
+	background:red;
+	padding:20px;
+	grid-gap:20px 50px;
+	display:grid;
+	grid-template-columns:auto auto auto;
+	align-items:space-between;
+	height:500px;
+	}
+	.grid-item{
+		border:1px solid white;
+	}
+/*.items1{
+	deciding where the colum/row start and where it must end(n-1)
+	grid-column-start:1;
+	grid-column-end:3;=n-1
+}
+
+.items2{
+		deciding where the colum/row start and where it must end(n-1)
+		grid-row-start:1;
+	grid-row-end:3;=n-1
+}*/

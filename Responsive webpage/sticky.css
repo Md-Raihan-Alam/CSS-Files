@@ -1,0 +1,6 @@
+*{margin:0;padding:0;}
+html{height:100%;}
+/*flex-direction:column and min-height:100% is responsible for it*/
+body{display:flex;flex-direction:column;min-height:100%;}
+.MainContent{flex:1 0 auto;color:#333;padding:0.5rem;}
+.Footer{background-color:indigo;padding:0.5rem;}

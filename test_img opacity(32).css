@@ -1,0 +1,6 @@
+img{
+	width:100;
+	height:100;
+-moz-opacity:0.1;             /*first one is for mozilla and second one is for internet exploral,but they no longer work*/
+filter:alpha(opacity=90);
+}

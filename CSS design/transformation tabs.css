@@ -1,0 +1,51 @@
+.project_tabs{
+    display:grid;
+    width:100%;
+    height:650px;
+    border:1px solid #000000;
+    grid-template: repeat(3,300px)/repeat(3,200px);
+    justify-content: space-evenly;
+    grid-gap:20px;
+    padding:10px;
+}
+[class^="project"]{
+    border:1px solid black;
+}
+.project_one{
+    perspective:300px;
+    position:relative;
+    width:100%;
+    height: 100%;
+}
+.flipper_object{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transition:transform 1s;
+    transform-style:preserve-3d;
+}
+.panel{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    top:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+    backface-visibility: hidden;
+}
+.flipper_horizontal .text_back{
+    transform:rotateY(180deg);
+}
+.project_one:hover .flipper_horizontal{
+    cursor:pointer;
+    transform: rotateY(180deg) translate3d(0,0,120px);
+    animation:pulse 1s 1s infinite alternate both;
+}
+@keyframes pulse {
+    100%{
+        text-shadow:0 0 5px #bbb;
+        box-shadow:0 0 3px 4px #bbb;
+    }
+}

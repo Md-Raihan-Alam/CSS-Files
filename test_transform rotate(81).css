@@ -1,0 +1,5 @@
+img{
+	display:block;
+transform:rotate(360deg);/*rotation of degree*/
+transition:all 1s;/*to control speed*/
+}

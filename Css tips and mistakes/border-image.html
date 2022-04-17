@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+[class^="something-meaningful"]{
+margin:10px;
+}
+.something-meaningful{
+background-image:url(1.jpg);
+background-size:cover;
+padding:1em;
+}
+.something-meaningful div{
+background:white;
+padding:1rem;
+}
+.something-meaningful2{
+padding:1em;
+border:1em solid transparent;
+background:linear-gradient(white,white), url(1.jpg);
+background-size:cover;
+background-clip:padding-box,border-box;
+background-origin:border-box;
+}
+.something-meaningful3{
+padding:1em;
+border:16px solid transparent;
+border-image:16 repeating-linear-gradient(-45deg,red 0,red 1em,transparent 0, transparent 2em,#58a 0,#58a 3em,transparent 0, transparent 4em);
+}
+</style>
+</head>
+<body>
+<div class="something-meaningful"><div>
+I have a nice stone art border,
+don’t I look pretty?
+</div></div>
+<div class="something-meaningful2">
+I have a nice stone art border,
+don’t I look pretty?
+</div>
+<div class="something-meaningful3">
+I have a nice stone art border,
+don’t I look pretty?
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.textDesign{
+	text-shadow:4px 5px 3px hsla(210,100%,30%),
+	-4px -5px hsla(381,90%,50%,0.9);
+}
+.textDesign2{
+	text-shadow:-2px -4px 0px  #bfbfbf;
+}
+@media (min-width:40rem){
+	.textDesign{
+		text-shadow:none;
+	}
+	.textDesign2{
+		text-shadow:none;
+	}
+}

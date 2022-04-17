@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            li{
+                width:100px;
+                height:100px;
+                border:1px solid black;
+            }
+            li:first-child:nth-last-child(4),
+li:first-child:nth-last-child(4) ~ li {
+    background-color:red;
+/* Target list items iff the list
+contains exactly four items */
+}
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </body>
+</html>

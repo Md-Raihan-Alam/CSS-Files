@@ -1,0 +1,64 @@
+.FlexWrapper{
+	background-color:indigo;
+	display:flex;
+	flex-direction:column;
+}
+.FlexItem{
+	display:flex;
+	align-items:center;
+	min-height:6.75rem;
+	justify-content:center;
+	padding:1rem;
+}
+/*
+The order property lets us revise the order of items within a Flexbox simply
+and sanely
+*/
+.FlexHeader{
+background-color:#105b63;
+order:1;
+}
+.FlexContent{
+	background-color:#fffad5;
+	order:2;
+}
+.FlexSideOne{
+	background-color:#db9e36;
+	order:3;
+}
+.FlexSideTwo{
+	background-color:#ffd34e;
+	order:4;
+}
+.FlexFooter{
+	background-color:#bd4932;
+	order:5;
+}
+@media (min-width:1000px){
+	/*
+	 flex-flow
+is actually a shorthand property of sorts that lets you set two properties in one:
+flex-direction and flex-wrap
+	*/
+	.FlexWrapper{
+		flex-flow:row wrap;
+	}
+	.FlexHeader{
+		width:100%;
+	}
+	.FlexContent{
+		flex:1 0 auto;
+		order:3;
+	}
+	.FlexSideOne{
+		flex:0.1 0 auto;
+		order:2;
+	}
+	.FlexSideTwo{
+		flex:0.2 0 auto;
+		order:4;
+	}
+	.FlexFooter{
+		width:100%;
+	}
+}

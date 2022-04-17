@@ -1,0 +1,10 @@
+.my-btn{display:inline-block; text-decoration:none;border:2px solid blue;padding:10px;color:red;position:relative;z-index:1;}
+.my-btn:hover{color:black;}
+.my-btn::before{content:"";width:0;height:100%;background:blue;position:absolute;left:0;top:0;z-index:-1;}/*same for before*/
+.my-btn:hover::before{width:100%;}
+.my-btn:before,.my-btn:hover{transition:.30s;}
+.my-btn2{display:inline-block; text-decoration:none;border:2px solid blue;padding:10px;color:red;position:relative;z-index:1;}
+.my-btn2:hover{color:black;}
+.my-btn2::before{content:"";width:100%;height:100%;background:blue;position:absolute;left:0;top:0;z-index:-1;}/*same for before*/
+.my-btn2:hover::before{width:0%;}
+.my-btn2:before,.my-btn2:hover{transition:.30s;}

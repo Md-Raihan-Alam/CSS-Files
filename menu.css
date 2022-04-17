@@ -1,0 +1,83 @@
+@font-face{
+	src:url(fonts/AdineKirnberg-Alternate.ttf);
+	font-family:adine;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.box{
+	width:100%;
+	height:100px;
+	background:black;
+	margin-left:0;
+	margin-right:0;
+	display:flex;
+	flex-direction:row-reverse;
+	font-size: 25px;
+}
+
+.subbox .heading{
+	position:relative;
+	top:-45px;
+	color:red;
+	left:-668px;
+	font-family:adine;
+	font-size:70px;
+	text-decoration:underline;
+}
+.subbox a{
+	position:relative;
+	color:white;
+	text-decoration:none;
+	top:35px;
+}
+.subbox .o{
+	margin-right:10px;
+	margin-left:10px;
+}
+.subbox a:hover{
+	color:green;
+}
+.subbox a:active{
+	color:red;
+}
+#wrapper{
+	width:100%;
+	height:89.2%;
+	position:absolute;
+	background-image:url(Jellyfish.jpg);
+	background-size:100% 100%;
+	animation:slider 20s infinite linear;
+}
+@keyframes slider{
+	0%{
+		background-image:url(Jellyfish.jpg);
+	}
+	25%{
+		background-image:url(Hydrangeas.jpg);
+	}
+	50%{
+		background-image:url(Koala.jpg);
+	}
+	75%{
+		background-image:url(Desert.jpg);
+	}
+}
+main .welCome{
+	color:purple;
+	font-size:80px;
+margin-top:300px;
+	font-family:adine;
+	font-weight:bolder;
+	display:block;
+	transition:3s;
+}
+main .sigNing{
+	float:right;
+	font-size:60px;
+	font-family:adine;
+	font-weight:bolder;
+	color:blue;
+transition:4s;
+}

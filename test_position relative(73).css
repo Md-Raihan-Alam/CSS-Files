@@ -1,0 +1,6 @@
+p{
+position:relative;
+left:350px;/*negative value for right*/
+top:210px;/*negative value for down*/
+background-color:#FF0000;
+}

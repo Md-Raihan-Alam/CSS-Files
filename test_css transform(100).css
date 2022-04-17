@@ -1,0 +1,10 @@
+#style1{transform:rotate(90deg);}
+#style2{transform:scale(1.5);}
+#style3{transform:skew(100deg);}/*skewX=X like graph skewY=Y like graph*/
+#style4{transition:3s;transform:translateX(90deg); transform:translateY(180deg);}/*translateX=X like graph translateY=Y like graph*/
+.container{margin-top:20%;text-align:center;}
+.hello{animation:slideRight 1s ease-in;}
+@keyframes slideRight{
+	0%{transform:translatex(1555px);}
+
+}

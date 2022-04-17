@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            main{
+                transition:.6s filter;
+                
+            }
+            main.emp{
+                filter:blur(3px) contrast(.8) brightness(.8);
+            }
+        </style>
+    </head>
+    <body>
+        <button>Click</button>
+        <main>Bacon Ipsum dolor sit amet…</main>
+        <dialog>
+            O HAI, I’m a dialog. Click on me to dismiss
+        </dialog>
+        </body>
+        <script type="text/javascript">
+        let btn=document.querySelector('button');
+        btn.addEventListener('click',()=>{
+            document.querySelector('main').classList.toggle('emp');
+        });
+        </script>
+</html>

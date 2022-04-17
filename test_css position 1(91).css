@@ -1,0 +1,33 @@
+.parent{
+	position:relative;
+	width:200vh;
+	height:200vh;
+}
+.child-1{
+	position:relative;
+	left:10px;
+	top:10px;
+}
+.child-2{
+	position:absolute;
+	top:0px;
+}
+.child-3{
+	position:fixed;
+	top:0px;
+	right: 0px;
+}
+/*
+check and experiment all the position one by one
+position:static
+it is a default command for those who don't have any specific position
+position:relative
+it is almost the same a static but it allows you to do specific things that static position does not. That is I can change the top,left,bottom,right of the element
+you can specific them.Inrelative,it take the command out of document flow  or remove from document flow and move it like you want.
+postion:absolute
+itmake the command competley ignore like it is deleted,*mostly used for slide.It remove completely from document flow and make the other command act like that this
+one don't even exist.It is very crucial command and make it very important.It absolutely position something.relative is common used for this case.You should use relative so
+that absolute doesn't come out like abnormal.it will be like relative to relative.
+position:fixed
+it is almost like absolute but different like it ignore relative.It always like stck.absolute doesn't act like stick.
+*/

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            dt,dd{
+                display:inline;
+            }
+            dd{
+                content:'\000A';
+                white-space:pre;
+            }
+            dd::before{
+                content:',';
+                font-weight:normal;
+            }
+        </style>
+    </head>
+    <body>
+        <dl>
+            <dt>Name:</dt> <dd>Lea Verou</dd>
+            <dt>Email:</dt>
+            <dd>lea@verou.me</dd>
+            <dd>leaverou@mit.edu</dd>
+            <dt>Location:</dt>
+            <dd>Earth</dd>
+            </dl>
+    </body>
+</html>

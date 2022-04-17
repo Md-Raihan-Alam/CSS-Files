@@ -1,0 +1,40 @@
+p::before{
+	content:"";
+	background:red;
+	display:block;
+	width:10px;
+	height:10px;
+}
+img::before{
+		content:"";
+	background:green;
+	display:block;
+	width:10px;
+	height:10px;
+}
+p::after{
+	content:"";
+	background:blue;
+	display:block;
+	width:10px;
+	height:10px;
+}
+h1::before{
+	content:"GOOD";
+	background:black;
+	color:white;
+	font-size:20px;
+	font-weight:900;
+}
+h1::after{
+	content:"GOOD";
+	background:black;
+	color:white;
+	font-size:20px;
+	font-weight:900;
+}
+/*
+before=add something before the content of specific element
+after=add something after the content of specific element
+before and after won't work for img because it is a replace type or link type element which is confusing and I don't know much
+*/

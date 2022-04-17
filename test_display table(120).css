@@ -1,0 +1,6 @@
+.span{
+	display:table;/*let the element behave like a <table> element*/
+}
+.span2{
+	display:table-cell;/*let the element behave like a <table> cell element*/
+}

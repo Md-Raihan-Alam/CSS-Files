@@ -1,0 +1,37 @@
+/*
+}
+What we are doing inside the square brackets is giving a name to the grid line.
+In this instance, the first column grid line we have named left-start, and the one
+after the first column we have named left-end. Notice that, in the center grid line,
+we have assigned two names: left-end and center-start. We can do this by
+space-separating the names. In this situation, it makes sense because that grid line
+is both the end of the left column and the beginning of the center one
+*/
+.my-first-grid{
+	display:inline-grid;
+	grid-gap:10px;
+/*assume the horizontal lines(outline) as column names*/
+	grid-template-columns:[l-column] 200px [l-end m-column] 100px [m-end r-column] 200px [r-end];
+/*assume the vertical lines(outline) as row names*/
+	grid-template-rows:[f-row] 100px [f-end c-row] 200px [c-end r-row] 100px [r-end];
+	background-color:#e4e4e4;
+}
+[class^="grid-item"]{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	outline:1px dashed green;
+}
+.grid-item-1{
+	grid-column:r-column/r-end;
+	grid-row:c-row/c-end;
+
+}
+.grid-item-2{
+	grid-column:l-column/l-end;
+	grid-row:r-row/r-end;
+}
+.grid-item-9{
+	grid-column:r-column/r-end;
+	grid-row:f-row/f-end;
+}

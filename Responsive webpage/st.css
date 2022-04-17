@@ -1,0 +1,104 @@
+*{margin:0;box-sizing:border-box;text-decoration:none;scroll-behavior: smooth;transition:.20s;}
+body{background-image:url(triangle_bg.png);}
+.colorBox{width:100%;height:5px;background-color:#b50404;}
+header{text-align:center;}
+header .logo{padding:20px;}
+header nav ul a{color:black;font-weight:lighter;padding:20px;font-size:18px;text-decoration:none;}
+header .bookImg img{width:150px;box-shadow:0px 5px 10px -5px black;margin:17px auto;margin-top:50px;}
+.desing-color{clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
+    background-color: #262c28;
+    padding: 80px 20px 20px;
+    margin-top: 30px;
+    position: relative;
+}
+.data{font-size:30px;
+color:white;
+font-weight:bolder;
+}
+#firstOne::before{
+	content:"with";
+	position:absolute;
+	color:white;
+	top:50px;
+	font-weight:100;
+	left:350px;
+}
+#secondOne::after{
+		content:"and";
+	position:absolute;
+	color:white;
+	top:50px;
+	font-weight:100;
+	left:510px;
+}
+.bookInfo{border-top:1px solid #424242;margin-top:20px;padding-top:20px;color:white;}
+.button-work{margin:30px auto;text-align:center;}
+.button-work #btn{background-color:#262c28;color:white;padding:20px 60px;font-size:15px;border-radius:60px;border:1px solid #089df4;cursor:pointer;}
+.fixedData{position:relative;top:-150px;float:right;color:white;}
+section{text-align:center;}
+section h1,h2{font-weight:100;}
+section h2{font-size:17px;}
+section a{color:#b50404;font-size:20px}
+.max-data{margin-top:30px;}
+.max-dataNow{margin-top:30px;}
+article{text-align:center;margin:20px;}
+article button{margin:5px;background-color:#089df4;color:white;font-size:20px;font-weight:bolder;cursor:pointer;padding:20px 60px;border:1px solid white; border-radius:60px;}
+.reviewsHere{clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);padding:30px 40px;color:white;background-color:#262c28;font-weight:lighter;}
+.reviewsHere .review{padding:20px 20px;font-size:17px;}
+.book-list{padding:10px;margin:10px;}
+.book-list ul li{padding:3px;}
+.img-book-page img{max-width:100%;padding:10px;margin:5px;}
+.mailing-box{background-color:#262c28;color:white;padding:30px;margin-top:20px;}
+.mailing-box .input-data{border:2px solid #b50404;border-radius:60px;height:40px;background-color:white;display:flex;}
+.mailing-box .input-data #text-data{flex:1;border:none;border-radius:60px;}
+.mailing-box .input-data button{border:none;color:#b50404;text-transform:uppercase;background-color:white;padding-right:40px;border-radius:60px;font-size:13px;}
+@media screen and (min-width:1000px){
+	.list-info-content{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.list-info-content li{
+		flex:0 0 33.33%;
+		padding:0 20px;
+}
+}
+.list-info-content{position:relative;}
+.list-info-content li{list-style:none;}
+.list-info{margin-top:30px;}
+.list-info p{font-size:19px;padding-left:40px;}
+.list-info ol li{padding:20px 0px}
+.list-info ol li p{padding-top:20px;}
+.list-info-content .list-1 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-2 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-3 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-4 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-5 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-6 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-7 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-8 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-9 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-10 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content .list-11 .colorNumber{color:#b50404;padding-right:5px;font-size:34px;}
+.list-info-content p{padding-left:10px;text-align:justify;}
+footer{background-color:#262c28;padding-left:15px;padding-top:10px;color:white;text-decoration:none;}
+footer>*{padding:10px;}
+footer div h3,p{padding:10px;}
+footer a{text-decoration:underline;color:white;}
+.footer-last{width:100%;height:5px;background-color:#b50404;}
+@media (min-width: 1200px) {
+.first-header{
+	display:flex;
+flex-direction: row;
+justify-content: space-between;
+max-width: 1000px;
+margin: 0 auto;
+height:200px;
+line-height:200px;
+}
+}
+@media (min-width:1000px){
+	nav{
+		margin:0;
+		padding:0;
+	}
+}

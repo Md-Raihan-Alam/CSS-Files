@@ -1,0 +1,11 @@
+table{
+width:100px;
+height:100px;
+}
+.a{
+table-layout:auto;
+}
+.b{
+table-layout:fixed;
+}
+/*it no longer work*/

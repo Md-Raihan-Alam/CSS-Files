@@ -1,0 +1,5 @@
+.my-btn{font-weight:bolder;font-size:20px;border:1px solid green;border-radius:5px;color:red;z-index:1;position:relative;padding:20px;}
+.my-btn::before{content:"";width:0%;height:100%;position:absolute;left:0px;top:0px;z-index:-1;background:green;}
+.my-btn:hover{color:white;}
+.my-btn:hover::before{width:100%;}
+.my-btn::before,.my-btn:hover{transition:.30s;}

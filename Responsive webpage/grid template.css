@@ -1,0 +1,13 @@
+.my-first-grid{
+	display:grid;
+	/*The part before the forward slash deals with the rows and the bit after the columns.*/
+	grid-template:repeat(2,200px)/repeat(3,200px);
+	background-color:#e4e4e4;
+	grid-gap:30px;
+}
+[class^="grid-item"]{
+	display:grid;
+	align-items:center;
+	justify-content:center;
+	outline:1px solid green;
+}

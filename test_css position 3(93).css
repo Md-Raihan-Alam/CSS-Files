@@ -1,0 +1,16 @@
+body{
+	height:400vh;
+}
+.header-list{
+	position:sticky;
+	top:0;
+	background:black;
+	color:green;
+}
+/*
+position:-webkit-sticky;=chrome
+position:-moz-sticky;=mozila
+position:-ms-sticky;=microsoft
+position:-o-sticky;=opera
+to specific, it isi more than 90%. default one is around 50%
+*/

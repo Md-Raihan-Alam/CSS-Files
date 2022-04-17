@@ -1,0 +1,9 @@
+p{
+	color:#FF0000 !important;/*because of this all 'p' color has turned red*/
+}
+.demo2{
+	color:#0000FF;
+}
+#text{
+	color:#FFFF00;
+}

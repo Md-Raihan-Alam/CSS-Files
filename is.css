@@ -1,0 +1,11 @@
+/*sortend thing like 
+header h1, header a{}
+syntex error on one will not affect the whole code
+*/
+header :is(h1,a){
+    color:palegoldenrod;
+    font-family:sans-serif;
+}
+main :is(h1,a):hover{
+    color:red;
+}

@@ -1,0 +1,21 @@
+p{
+background-color:yellow;
+}
+#id{
+background-color:red;
+}
+.black{
+background-color:green;
+}
+ul em{
+background-color:blue;
+}
+ol>li{
+background-color:red;
+}
+input[type="text"]{
+background-color:purple;
+}
+h4,h5{
+	background-color:gold;
+}

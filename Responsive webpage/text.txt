@@ -1,0 +1,209 @@
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+<link href="ex1.css" rel="stylesheet" media="all">
+<link href="favicon.ico" rel="shortcut icon">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<div class="colorBox"></div>
+<header>
+<div class="logo"><img src="SOC-Logo.png"></div>
+<nav>
+<ul type="none">
+<a href="#">ABOUT</a>
+<a href="#">REVIEWS</a>
+<a href="#">CHAPTER LIST</a>
+<a href="#">BUY</a>
+<a href="#">CODE</a>
+</ul>
+</nav>
+<div class="bookImg">
+<img src="rwd.png">
+</div>
+</header>
+<div class="desing-color">
+<div class="data">
+Responsive Web Design <span id="firstOne">HTML5</span> And <span id="secondOne">CSS3</span>
+</div>
+<div class="bookInfo">
+Since 2012, ’Responsive Web Design with HTML5 and CSS’ by Ben Frain, has been Packt publishing’s best-selling book on Responsive Web Design and the latest HTML and CSS techniques and features. ?Now completely updated 3rd Edition for 2020!
+</div>
+<div class="fixedData">3rd Edition</div>
+<div class="button-work">
+<button id="btn">What's new in the 3rd edition?</button>
+</div>
+</div>
+<section>
+<div class="max-data">
+<h1>300+ INFO PACKED PAGES</h1>
+<h2>Media queries, SVG, animations, CSS tranforms, accessibiltity, Flexbox, CSS Grid, CSS Scroll Snap and much, much more.</h2>
+</div>
+<div class="max-data">
+<h1>SAMPLE CODE</h1>
+<h2>Chapter code is available for each subject and you also get the code for this site. You’ll be building it bit by bit as we progress!</h2>
+</div>
+<div class="max-data">
+<h1>LATEST EDITION</h1>
+<h2>The 3rd Edition of Packt’s best-selling Responsive Web Design title since 2012.</h2>
+</div>
+<div class="max-data">
+<h1>IS IT FOR YOU?</h1>
+<h2>This isn’t a book for absolute beginners; you should have some understanding of HTML and CSS.</h2>
+<h2>We will be taking this example site from nothing more than high quality HTML markup to fully responsive progressively enhanced website using the latest CSS techniques.</h2>
+<div class="max-data">
+<h1>WHAT WILL YOU LEARN</h1>
+<h2>Each chapter will teach you the essentials of that subject, before putting the lessons learnt into practice to build this very site!</h2>
+<h2>You’ll learn everything you need to build fully responsive, modern web sites using the latest CSS and HTML features. Still unsure?</h2>
+</div>
+<div class="max-dataNow">
+<a href="#" align="center">Read the chapter summery below</a>
+</div>
+</section>
+<article>
+<button>BUY FROM AMAZON</button><br>
+<button>BUY FROM PACKT</button>
+</article> 
+<div class="reviewsHere">
+<div class="reviewStart"><h3>REVIEWS</h3></div>
+<div class="review">
+<p>Provides a ton of usable, executable advice using good examples and in a very readable style.<br>
+– Fredric Retzkom</p>
+</div>
+<div class="review">
+<p>...jam packed with quality information about responsive web design, but what i liked the most is that it also teaches a lot of HTML5 and CSS3<br>
+– Mirko Zoric</p>
+</div>
+<div class="review">
+<p>Awesome stuff. Really recommended for anyone ready to dive into HTML5/CSS3.<br>
+– Perovic</p>
+</div>
+</div>
+<div class="book-list">
+<h3>NEW IN THE 3RD EDITION</h3>
+<p>If you’ve only read the 1st Edition, there’s no question you’ll learn plenty more from the 3rd Edition. However, if you have the 2nd edition, you may be wondering if it’s worth your while. Here’s a selection of the new topics covered in the 3rd Edition:</p>
+<ul class="list-work">
+<li>Full chapter on CSS Grid</li>
+<li>CSS Scroll Snap</li>
+<li>CSS mix-blend modes</li>
+<li>Greater focus on accessibility</li>
+<li>All about variable fonts</li>
+<li>CSS font loading techniques</li>
+<li>CSS clip-path</li>
+<li>::focus-within for forms</li>
+<li>CSS custom properties</li>
+<li>CSS environment variables (A.K.A. phone notches</li>
+</ul>
+</div>
+<div class="img-book-page">
+<img src="ResponsiveWebDesignA.png">
+</div>
+<div class="mailing-box">
+<p id="heading-mail">MAILING LIST</p>
+<p id="text-def">Want to know when the book hits the shelves? Or perhaps advance notice of special offers? Subscribe here and you’ll be first to know!</p>
+<div class="input-data">
+<input type="text" id="text-data"><button id="btn-sub">Subscribe</button>
+</div>
+</div>
+<div class="list-info">
+<h1>FULL CHAPTER LIST</h1>
+<ol class="list-info-content">
+<li class="list-1">
+<h2>Essentials of Responsive Design</h2>
+<p>By the end of this first chapter, you will have made a responsive web page. Along the way we will get an understanding of where Responsive Web Design came from, the problems it solves and the core tenants of implementing a Responsive Web Design with HTML5 and CSS</p>
+</li>
+<li class="list-2">
+<h2></h2>
+<p></p>
+</li>
+<li class="list-3">
+<h2></h2>
+<p></p>
+</li>
+<li class="list-4">
+<h2></h2>
+<p></p>
+</li>
+<li class="list-5">
+<h2></h2>
+<p></p>
+</li>
+<li class="list-6">
+<h2></h2>
+<p></p>
+</li>
+<li class="list-7">
+<h2></h2>
+<p></p>
+</li>
+<li class="list-8">
+<h2></h2>
+<p></p>
+</li>
+<li class="list-9">
+<h2></h2>
+<p></p>
+</li>
+<li class="list-10">
+<h2></h2>
+<p></p>
+</li>
+<li class="list-11">
+<h2></h2>
+<p></p>
+</li>
+</div>
+</body>
+</html>
+CSS
+body{background-image:url(triangle_bg.png);margin:0;text-decoration:none;box-sizing:border-box;}
+.colorBox{width:100%;height:5px;background-color:red;}
+header{text-align:center;}
+header .logo{padding:20px;}
+header nav ul a{color:black;font-weight:lighter;padding:20px;font-size:18px;}
+header .bookImg img{width:150px;box-shadow:0px 5px 10px -5px black;margin:17px auto;margin-top:50px;}
+.desing-color{clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);
+    background-color: #262c28;
+    padding: 80px 20px 20px;
+    margin-top: 30px;
+    position: relative;
+}
+.data{font-size:30px;
+color:white;
+font-weight:bolder;
+}
+#firstOne::before{
+	content:"with";
+	position:absolute;
+	color:white;
+	top:50px;
+	font-weight:100;
+	left:350px;
+}
+#secondOne::after{
+		content:"and";
+	position:absolute;
+	color:white;
+	top:50px;
+	font-weight:100;
+	left:510px;
+}
+.bookInfo{border-top:1px solid #424242;margin-top:20px;padding-top:20px;color:white;}
+.button-work{margin:30px auto;text-align:center;}
+.button-work #btn{background-color:#262c28;color:white;padding:20px 60px;font-size:15px;border-radius:60px;border:1px solid #089df4;cursor:pointer;}
+.fixedData{position:relative;top:-150px;float:right;color:white;}
+section{text-align:center;}
+section h1,h2{font-weight:100;}
+section h2{font-size:17px;}
+section a{color:red;font-size:20px}
+.max-data{margin-top:30px;}
+.max-dataNow{margin-top:30px;}
+article{text-align:center;margin:20px;}
+article button{margin:5px;background-color:#089df4;color:white;font-size:20px;font-weight:bolder;cursor:pointer;padding:20px 60px;border:1px solid white; border-radius:60px;}
+.reviewsHere{clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0 94%);padding:30px 40px;color:white;background-color:#262c28;font-weight:lighter;}
+.reviewsHere .review{padding:20px 20px;font-size:17px;}
+.book-list{padding:10px;margin:10px;}
+.book-list ul li{padding:3px;}
+.img-book-page img{max-width:100%;padding:10px;margin:5px;}
+.mailing-box{background-color:black;}

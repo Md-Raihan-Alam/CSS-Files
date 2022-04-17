@@ -1,0 +1,48 @@
+#a{
+cursor:auto;/*it will create a 'I','hand' and so on mark better to use it*/
+}
+#b{
+cursor:crosshair;/*it will create a '+'/aim-type */
+}
+#c{
+cursor:default;/*default one */
+}
+#d{
+cursor:pointer;/*'hand' mark better to use it for links*/
+}
+#e{
+cursor:move;/*'+' with arrow, better to use for zoom type*/
+}
+#f{
+cursor:e-resize;/*'-' with arrow,when to move things to left and right*/
+}
+#g{
+cursor:ne-resize;/*up-right with arrow type mark*/
+}
+#h{
+cursor:nw-resize;/*up-left with arrow type mark*/
+}
+#i{
+cursor:n-resize;/*up-down with arrow type mark*/
+}
+#j{
+cursor:se-resize;/*same as 'nw-resize'*/
+}
+#k{
+cursor:sw-resize;/*same as 'ne-resize'*/
+}
+#l{
+cursor:s-resize;/*same as 'n-resize'*/
+}
+#m{
+cursor:w-resize;/*same as 'e-resize'*/
+}
+#n{
+cursor:text;/*create a 'I' mark*/
+}
+#o{
+cursor:wait;/*create a 'loading' mark*/
+}
+#p{
+cursor:help;/*create a '?' mark*/
+}

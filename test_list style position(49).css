@@ -1,0 +1,16 @@
+#a{
+list-style-type:lower-roman;
+list-style-position:inside;
+}
+#b{
+list-style-type:upper-alpha;
+list-style-position:outside;
+}
+#c{
+list-style-type:circle;
+list-style-position:inside;
+}
+#d{
+list-style-type:square;
+list-style-position:outside;
+}

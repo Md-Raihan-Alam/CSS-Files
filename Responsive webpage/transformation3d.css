@@ -1,0 +1,52 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    height:100vh;
+    display:grid;
+    place-items:center;
+}
+.card{
+    width:400px;
+   
+}
+.card_content{
+    padding:5em;
+    text-align:center;
+    position:relative;
+    transition:transform 3s;
+    border:1px solid black;
+    transform-style: preserve-3d;/*give it to the parent element of the front and back*/
+}
+.card:hover .card_content{
+    transform:rotateY(180deg);
+}
+.card_front,.card_back{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding:2em;
+    background: white;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
+}
+.card_title{
+    transform:translateZ(150px);/*it became closure to us through 3d*/
+}
+.card_subtitle{
+    transform:translateZ(100px);
+}
+.card_back{
+    transform:rotateY(180deg);
+    transform-style: preserve-3d;
+    background-color:white;
+}
+.card_body{
+    transform:translateZ(130px);
+}
